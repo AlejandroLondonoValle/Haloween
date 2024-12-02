@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="night-sky">
+        <div class="moon"></div>
+        <div class="clouds"></div>
+    </div>
+
+    <header class="header">
+        <div class="nav">
+            <h1 class="title">¡Feliz Halloween 2024!</h1>
+        </div>
+    </header>
+
+    <section class="main">
+        <h2>La casa del terror</h2>
+        <p class="message">¡Bienvenidos, si te atreves!</p>
+
+        <!-- Contenedor para los fantasmas flotantes -->
+        <div class="ghosts-container"></div>
+
+        <!-- Caja misteriosa que se abre al hacer clic -->
+        <div class="mystery-box" onclick="openBox()">
+            <p>¡Haz clic para descubrir lo que hay dentro!</p>
+        </div>
+
+        <iframe width="1006" height="750" src="https://www.youtube.com/embed/cpJqYVGt6Fc?autoplay=1" 
+        title="Lo siento señora jackson (pero con imagenes de google)" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
+        <div class="creepy-sound">
+            <audio id="creepyAudio" loop autoplay>
+                <source src="https://www.soundjay.com/button/beep-07.wav" type="audio/wav">
+                Tu navegador no soporta audio.
+            </audio>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Halloween Mágico. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
